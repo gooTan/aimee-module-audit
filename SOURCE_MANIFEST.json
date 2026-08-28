@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "module": "audit",
+  "classification": "required",
+  "execution": "core",
+  "runtime": null,
+  "placements": [
+    "server",
+    "kb"
+  ],
+  "principal_class": null,
+  "principal_ref": null,
+  "stages": [],
+  "source_sha256": "8a5be75def9a1c1f95b9d3d7e8545880e58d721f0ed55c72fb8a5c7827cf2289",
+  "owned_files": [
+    "src/modules/audit/module.yaml",
+    "src/modules/audit/audit_action.c",
+    "src/modules/audit/obs_bus.c",
+    "src/modules/audit/audit_ledger.c",
+    "src/modules/audit/audit_replay.c",
+    "src/modules/audit/audit_worm.c",
+    "src/modules/audit/audit_worm_chain.c",
+    "src/modules/audit/include/aimee/audit/audit_action.h",
+    "src/modules/audit/include/aimee/audit/obs_bus.h",
+    "src/modules/audit/include/aimee/audit/audit_ledger.h",
+    "src/modules/audit/include/aimee/audit/audit_replay.h",
+    "src/modules/audit/include/aimee/audit/audit_worm.h",
+    "src/modules/audit/include/aimee/audit/audit_worm_chain.h",
+    "src/tests/test_audit_action.c",
+    "src/tests/test_audit_ledger.c",
+    "src/tests/test_audit_worm.c",
+    "src/tests/test_audit_worm_chain.c",
+    "docs/modules/audit.md"
+  ]
+}
