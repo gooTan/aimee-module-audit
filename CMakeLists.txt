@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(aimee_module_audit VERSION 0.3.2 LANGUAGES NONE)
+project(aimee_module_audit VERSION 0.3.3 LANGUAGES NONE)
 include(GNUInstallDirs)
 install(DIRECTORY src/ DESTINATION ${CMAKE_INSTALL_DATADIR}/aimee/sources/audit/src)
 install(DIRECTORY docs/ DESTINATION ${CMAKE_INSTALL_DATADIR}/aimee/sources/audit/docs)
